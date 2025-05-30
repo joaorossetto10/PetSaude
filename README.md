@@ -1,16 +1,94 @@
-# petsaude
+# 🐾 PetSaúde
 
-A new Flutter project.
+![App Icon](assets/icon/icon.png)
 
-## Getting Started
+**PetSaúde** é um aplicativo Flutter que permite aos donos de animais domésticos acompanharem e organizarem os cuidados com seus pets, como consultas, vacinas, espécies, raças e observações médicas. O app funciona totalmente offline com armazenamento local usando Hive.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 Funcionalidades
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* Cadastro e listagem de pets com informações completas.
+* Registro de vacinas com datas, tipos e visualização por pet.
+* Registro de consultas com assunto, data, veterinário e observações.
+* Sugestões automáticas de raças e assuntos por espécie.
+* Visual moderno com suporte a tema escuro.
+* Interface simples, leve e intuitiva.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🚀 Tecnologias Utilizadas
+
+* **Flutter**
+* **Hive** (armazenamento local)
+* **Dart**
+
+---
+
+## 🧪 Como rodar o projeto
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/joaorossetto10/PetSaude.git
+```
+
+2. Acesse o diretório:
+
+```bash
+cd PetSaude
+```
+
+3. Instale as dependências:
+
+```bash
+flutter pub get
+```
+
+4. Execute o app:
+
+```bash
+flutter run
+```
+
+---
+
+## 🎨 Personalização
+
+As cores principais do app são:
+
+* Verde: `RGB(20, 138, 10)`
+* Preto: `RGB(0, 0, 0)`
+
+O ícone do app está localizado em `assets/icon/icon.png` e foi configurado com o `flutter_launcher_icons`.
+
+---
+
+## 📦 Gerar APK
+
+Para gerar a versão de produção do APK:
+
+```bash
+flutter build apk --release
+```
+
+O APK será salvo em:
+
+```
+build/app/outputs/flutter-apk/app-release.apk
+```
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **João Rossetto**
+
+* GitHub: [joaorossetto10](https://github.com/joaorossetto10)
+* Email: [joaopaska@gmail.com](mailto:joaopaska@gmail.com)
+
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
